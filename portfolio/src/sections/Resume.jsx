@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 const Resume = () => {
-  const resumeUrl = "/resume.pdf"; 
+  const resumeUrl = "/Rohit ATS resume.pdf"; // public folder
   const [open, setOpen] = useState(false);
 
   return (
@@ -13,7 +13,7 @@ const Resume = () => {
         textAlign: "center",
       }}
     >
-    
+  
       <h2
         style={{
           fontSize: "32px",
@@ -25,7 +25,7 @@ const Resume = () => {
         Resume
       </h2>
 
-     
+    
       <p
         style={{
           maxWidth: "720px",
@@ -39,7 +39,7 @@ const Resume = () => {
         information about my skills and experience.
       </p>
 
-    
+      
       <div
         style={{
           display: "flex",
@@ -49,7 +49,7 @@ const Resume = () => {
           marginBottom: "70px",
         }}
       >
-       
+      
         <button
           onClick={() => setOpen(true)}
           style={{
@@ -82,7 +82,7 @@ const Resume = () => {
           👁 View Resume
         </button>
 
-       
+      
         <a
           href={resumeUrl}
           download
@@ -109,7 +109,7 @@ const Resume = () => {
         </a>
       </div>
 
-    
+     
       {open && (
         <div
           onClick={() => setOpen(false)}
@@ -134,7 +134,7 @@ const Resume = () => {
               position: "relative",
             }}
           >
-            
+        
             <button
               onClick={() => setOpen(false)}
               style={{
@@ -151,6 +151,7 @@ const Resume = () => {
               ✕
             </button>
 
+           
             <iframe
               src={resumeUrl}
               title="Resume Preview"
@@ -164,7 +165,7 @@ const Resume = () => {
         </div>
       )}
 
-   
+      
       <style>
         {`
           @keyframes pulse {

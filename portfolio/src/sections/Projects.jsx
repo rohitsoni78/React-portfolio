@@ -12,7 +12,7 @@ const Projects = () => {
         "A responsive web application showcasing modern UI patterns .",
 
       image: project1,
-      repoLink: "https://github.com/rohitsoni78/project-one",
+      repoLink: " https://rohitsoni78.github.io/Jewellry-shop-management/",
    
     },
     {
@@ -21,7 +21,7 @@ const Projects = () => {
         "A real-time dashboard with interactive charts and authentication.",
      
       image: project2,
-      repoLink: "https://github.com/rohitsoni78/project-two",
+      repoLink: "https://rohitsoni78.github.io/IRCTC/",
     
     },
   ];

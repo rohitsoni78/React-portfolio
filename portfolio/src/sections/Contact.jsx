@@ -166,7 +166,7 @@ const Contact = () => {
         <div className="contact-icons">
        
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/rohit-soni-683a11257"
             target="_blank"
             rel="noreferrer"
             title="LinkedIn"
