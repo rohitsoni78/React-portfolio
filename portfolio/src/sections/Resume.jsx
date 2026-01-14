@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 const Resume = () => {
-  const resumeUrl = "/Rohit ATS resume.pdf"; // public folder
+  const resumeUrl = "/Rohit Resume ATS.pdf"; // public folder
   const [open, setOpen] = useState(false);
 
   return (
